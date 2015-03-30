@@ -15,6 +15,7 @@
 		B11F4E451AC72DC1009158DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4E441AC72DC1009158DF /* LoginViewController.swift */; };
 		B11F4E471AC734AF009158DF /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4E461AC734AF009158DF /* StartPageViewController.swift */; };
 		B11F4E491AC73850009158DF /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4E481AC73850009158DF /* UserTableViewController.swift */; };
+		B11F4E4D1AC8BB5E009158DF /* PostPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F4E4C1AC8BB5E009158DF /* PostPhotoViewController.swift */; };
 		B1C0CE941AC4D1DC00DF3274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C0CE931AC4D1DC00DF3274 /* AppDelegate.swift */; };
 		B1C0CE991AC4D1DC00DF3274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C0CE971AC4D1DC00DF3274 /* Main.storyboard */; };
 		B1C0CE9B1AC4D1DC00DF3274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C0CE9A1AC4D1DC00DF3274 /* Images.xcassets */; };
@@ -56,6 +57,7 @@
 		B11F4E441AC72DC1009158DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B11F4E461AC734AF009158DF /* StartPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
 		B11F4E481AC73850009158DF /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		B11F4E4C1AC8BB5E009158DF /* PostPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPhotoViewController.swift; sourceTree = "<group>"; };
 		B1C0CE8E1AC4D1DC00DF3274 /* ShareYourMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareYourMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C0CE921AC4D1DC00DF3274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C0CE931AC4D1DC00DF3274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				B11F4E441AC72DC1009158DF /* LoginViewController.swift */,
 				B11F4E461AC734AF009158DF /* StartPageViewController.swift */,
 				B11F4E481AC73850009158DF /* UserTableViewController.swift */,
+				B11F4E4C1AC8BB5E009158DF /* PostPhotoViewController.swift */,
 			);
 			path = ShareYourMeal;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11F4E491AC73850009158DF /* UserTableViewController.swift in Sources */,
+				B11F4E4D1AC8BB5E009158DF /* PostPhotoViewController.swift in Sources */,
 				B11F4E451AC72DC1009158DF /* LoginViewController.swift in Sources */,
 				B11F4E431AC72988009158DF /* ViewController.swift in Sources */,
 				B11F4E471AC734AF009158DF /* StartPageViewController.swift in Sources */,

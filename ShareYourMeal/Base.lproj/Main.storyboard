@@ -144,13 +144,13 @@
         <!--User-->
         <scene sceneID="K6J-zT-gku">
             <objects>
-                <tableViewController id="GNv-iI-aUL" customClass="UserTableViewController" customModule="ShareYourMeal" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="w6p-2Y-t3M">
+                <tableViewController storyboardIdentifier="MainStoryboard" id="GNv-iI-aUL" customClass="UserTableViewController" customModule="ShareYourMeal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="46" sectionHeaderHeight="22" sectionFooterHeight="22" id="w6p-2Y-t3M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="al2-bI-Ti6">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="46" id="al2-bI-Ti6">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="al2-bI-Ti6" id="3j1-oy-uXY">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -162,23 +162,26 @@
                             <outlet property="delegate" destination="GNv-iI-aUL" id="ST1-Py-fp9"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="User" id="Bim-0P-JfZ">
-                        <barButtonItem key="rightBarButtonItem" title="Post" id="YmL-SE-WEl">
+                        <barButtonItem key="rightBarButtonItem" image="camera" id="mQq-wq-KQd">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="CxC-zv-82v" kind="show" id="Ij5-W0-9XT"/>
+                                <action selector="PhotoActionSheet:" destination="GNv-iI-aUL" id="811-oQ-RMF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FBr-le-uIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551.5" y="163.5"/>
+            <point key="canvasLocation" x="1545.5" y="163.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="BkT-wT-S3e">
             <objects>
-                <viewController id="CxC-zv-82v" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vc2" id="CxC-zv-82v" customClass="PostPhotoViewController" customModule="ShareYourMeal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bnv-id-cNe"/>
                         <viewControllerLayoutGuide type="bottom" id="Pzp-Mk-c0r"/>
@@ -186,13 +189,60 @@
                     <view key="view" contentMode="scaleToFill" id="ooF-24-pg5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucz-sf-l30">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.71999999999999997" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="AlS-dC-9mt">
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="kdk-DI-A6A">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="GNv-iI-aUL" kind="show" id="I7b-gr-zqt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" id="0iQ-zd-oPB">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Eak-bS-P8O">
+                                                <rect key="frame" x="-23" y="-15" width="83" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="Sent">
+                                                    <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sentPhoto:" destination="CxC-zv-82v" eventType="touchUpInside" id="Q6Y-2b-2NX"/>
+                                                </connections>
+                                            </button>
+                                            <connections>
+                                                <action selector="sentPhoto:" destination="CxC-zv-82v" id="4Yj-GV-8oA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zyK-Sb-TkC">
+                                <rect key="frame" x="100" y="100" width="174" height="174"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Say something" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jso-a0-NNn">
+                                <rect key="frame" x="84" y="304" width="207" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="orO-NY-ghd"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="pickedImage" destination="zyK-Sb-TkC" id="CnH-pB-Fek"/>
+                        <outlet property="text" destination="jso-a0-NNn" id="g4d-Gt-rpc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MF6-AK-n4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2018.5" y="144.5"/>
+            <point key="canvasLocation" x="2061.5" y="148.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NmK-SF-Y7P">
@@ -282,8 +332,10 @@
     </scenes>
     <resources>
         <image name="background" width="375" height="667"/>
+        <image name="camera" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="I7b-gr-zqt"/>
         <segue reference="VhZ-aA-ojh"/>
         <segue reference="Y9n-hx-sdv"/>
     </inferredMetricsTieBreakers>

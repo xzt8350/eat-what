@@ -13,10 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+         self.window?.tintColor = UIColor.orangeColor()
         
         Parse.setApplicationId("GE3ce0k5DR6mrmnji6kNTpZLDesl68t0A4E4lQJd", clientKey:"QoJm3AJEfAcIJpSFWkRQbmnoetMaqfPfD4XxY7qm")
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
