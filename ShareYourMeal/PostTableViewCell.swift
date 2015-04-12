@@ -9,10 +9,13 @@
 import UIKit
 
 class PostTableViewCell: UITableViewCell {
+    
 
+    @IBOutlet var likeButton: UIButton!
     @IBOutlet var foodPhoto: UIImageView!
     @IBOutlet var username: UILabel!
     
+    @IBOutlet var like: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

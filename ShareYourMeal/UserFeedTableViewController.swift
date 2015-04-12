@@ -8,17 +8,18 @@
 
 import UIKit
 
-class UserFeedTableViewController: UITableViewController, UITabBarControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class UserFeedTableViewController: UITableViewController, UITabBarControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate {
 
     var picker:UIImagePickerController?=UIImagePickerController()
-    
-    var image :UIImage!
-
     var haha: PostPhotoViewController!
+    
     
     var usernames = [String]()
     var images = [UIImage]()
     var imageFiles = [PFFile]()
+    
+    var numLikes = [Int]()
+    var objectId = [String]()
     
     func tabBarController(tabBarController: UITabBarController,
         shouldSelectViewController viewController: UIViewController) -> Bool{
@@ -138,9 +139,7 @@ class UserFeedTableViewController: UITableViewController, UITabBarControllerDele
         
         var barViewControllers = self.tabBarController?.viewControllers
         
-         println(barViewControllers)
-        
-        haha = barViewControllers![1] as PostPhotoViewController //20
+        haha = barViewControllers![1] as PostPhotoViewController
         
         self.tabBarController?.delegate = self
         
@@ -151,23 +150,34 @@ class UserFeedTableViewController: UITableViewController, UITabBarControllerDele
             
             if error == nil{
                 
+                println(objects)
+                
+                if objects != nil{
                 
                 for object in objects{
                      println(object)
                     
+                    println(object["likes"])
+                    
                     self.usernames.append(object["username"] as String)
                     self.imageFiles.append(object["imageFile"] as PFFile)
+                    self.numLikes.append(object["numLikes"] as Int)
+                    self.objectId.append(object.objectId as String)
                     
                     self.tableView.reloadData()
+                }
+                    
                 }
                 
             } else {
                 println(error)
             }
             
-            
-            
         }
+        
+        
+        
+        self.tableView.separatorColor = UIColor.whiteColor();
         
         
         println(usernames)
@@ -196,6 +206,8 @@ class UserFeedTableViewController: UITableViewController, UITabBarControllerDele
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
+        
+        
         return usernames.count
         
     }
@@ -207,6 +219,8 @@ class UserFeedTableViewController: UITableViewController, UITabBarControllerDele
         
         // Configure the cell...
         cell.username.text = usernames[indexPath.row]
+        cell.like.text = String(numLikes[indexPath.row])
+  
         imageFiles[indexPath.row].getDataInBackgroundWithBlock{
             
             (imageData: NSData!, error: NSError!) -> Void in
@@ -218,18 +232,63 @@ class UserFeedTableViewController: UITableViewController, UITabBarControllerDele
                 cell.foodPhoto.image = foodImage
                 
             }
-            
-            
-            
         }
-
+        
+        cell.likeButton.tag = indexPath.row
+        cell.likeButton.addTarget(self, action: "likeButtonClicked:", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        //cell.foodPhoto.userInteractionEnabled = true
+        
         return cell
     }
     
+   
+    
+    func likeButtonClicked(sender:UIButton) {
+        
+        let buttonRow = sender.tag
+        
+        let postId = objectId[buttonRow]
+        
+        var postQuery = PFQuery(className: "Post")
+        
 
-
+        postQuery.getObjectInBackgroundWithId(postId){
+            (post: PFObject!, error: NSError!) -> Void in
+            
+            
+            if error == nil && post != nil {
+                
+                //Update the new number of like for this post
+                
+                
+                var newNumLike = (post["numLikes"] as Int) + 1
+                post["numLikes"] = newNumLike
+                
+                var newLikes = (post["likes"] as [String])
+                
+                newLikes.append(PFUser.currentUser().username)
+                post["likes"] = newLikes
+                
+                
+                post.saveInBackground()
+                
+            } else {
+                println(error)
+            }
+            
+            
+        }
+        
+    
+    }
     
     
+    @IBAction func handleTap(sender: UITapGestureRecognizer) {
+        sender.numberOfTapsRequired = 2
+        
+        
+    }
 
 
     /*

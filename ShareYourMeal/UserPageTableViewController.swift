@@ -9,9 +9,46 @@
 import UIKit
 
 class UserPageTableViewController: UITableViewController {
+    
+  
+    var images = [UIImage]()
+    var imageFiles = [PFFile]()
+    var likes = [[String]()]
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        var myPost = PFQuery(className: "Post")
+        
+        myPost.whereKey("username", equalTo: PFUser.currentUser().username)
+        
+        
+        
+        myPost.findObjectsInBackgroundWithBlock{
+            (objects: [AnyObject]!, error: NSError!) -> Void in
+            
+            if error == nil{
+                
+                for object in objects{
+                    println(object)
+                    
+                    self.imageFiles.append(object["imageFile"] as PFFile)
+                    self.likes.append(object["likes"] as [String])
+                    
+                    self.tableView.reloadData()
+                }
+                
+            } else {
+                println(error)
+            }
+            
+        }
+        
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -30,24 +67,38 @@ class UserPageTableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return images.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-
+        var cell : PostTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("ss") as PostTableViewCell
+        
         // Configure the cell...
-
+       
+        cell.like.text = String(likes[indexPath.row].count)
+        imageFiles[indexPath.row].getDataInBackgroundWithBlock{
+            
+            (imageData: NSData!, error: NSError!) -> Void in
+            
+            if error == nil {
+                
+                let foodImage = UIImage(data: imageData)
+                
+                cell.foodPhoto.image = foodImage
+                
+            }
+        }
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

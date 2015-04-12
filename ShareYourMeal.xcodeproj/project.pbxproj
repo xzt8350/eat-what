@@ -27,8 +27,6 @@
 		B1C0CE9B1AC4D1DC00DF3274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C0CE9A1AC4D1DC00DF3274 /* Images.xcassets */; };
 		B1C0CE9E1AC4D1DC00DF3274 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C0CE9C1AC4D1DC00DF3274 /* LaunchScreen.xib */; };
 		B1C0CEAA1AC4D1DC00DF3274 /* ShareYourMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C0CEA91AC4D1DC00DF3274 /* ShareYourMealTests.swift */; };
-		B1C0CEB51AC4D21D00DF3274 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0CEB31AC4D21D00DF3274 /* Bolts.framework */; };
-		B1C0CEB61AC4D21D00DF3274 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0CEB41AC4D21D00DF3274 /* Parse.framework */; };
 		B1C0CEB81AC4D2D000DF3274 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0CEB71AC4D2D000DF3274 /* AudioToolbox.framework */; };
 		B1C0CEBA1AC4D31700DF3274 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0CEB91AC4D31700DF3274 /* CFNetwork.framework */; };
 		B1C0CEBC1AC4D34D00DF3274 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0CEBB1AC4D34D00DF3274 /* libz.dylib */; };
@@ -65,7 +63,7 @@
 		B11F4E481AC73850009158DF /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		B11F4E4C1AC8BB5E009158DF /* PostPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPhotoViewController.swift; sourceTree = "<group>"; };
 		B1AE3BEB1ACB241A00D48494 /* UserFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedTableViewController.swift; sourceTree = "<group>"; };
-		B1AE3BED1ACB282E00D48494 /* UserPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPageTableViewController.swift; sourceTree = "<group>"; };
+		B1AE3BED1ACB282E00D48494 /* UserPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPageTableViewController.swift; sourceTree = "<group>"; tabWidth = 3; };
 		B1AE3BF11AD31B8700D48494 /* ReadyToPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyToPostViewController.swift; sourceTree = "<group>"; };
 		B1AE3BF31AD345B200D48494 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B1AE3BF51AD3580900D48494 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
@@ -79,8 +77,6 @@
 		B1C0CEA31AC4D1DC00DF3274 /* ShareYourMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareYourMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C0CEA81AC4D1DC00DF3274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C0CEA91AC4D1DC00DF3274 /* ShareYourMealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYourMealTests.swift; sourceTree = "<group>"; };
-		B1C0CEB31AC4D21D00DF3274 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.7.0/Bolts.framework"; sourceTree = "<group>"; };
-		B1C0CEB41AC4D21D00DF3274 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.0/Parse.framework"; sourceTree = "<group>"; };
 		B1C0CEB71AC4D2D000DF3274 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B1C0CEB91AC4D31700DF3274 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B1C0CEBB1AC4D34D00DF3274 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -117,8 +113,6 @@
 				B11F4E371AC61CF6009158DF /* ParseFacebookUtilsV4.framework in Frameworks */,
 				B11F4E2D1AC5F2A0009158DF /* FBSDKCoreKit.framework in Frameworks */,
 				B1AE3BF61AD3580900D48494 /* Bolts.framework in Frameworks */,
-				B1C0CEB61AC4D21D00DF3274 /* Parse.framework in Frameworks */,
-				B1C0CEB51AC4D21D00DF3274 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,9 +166,7 @@
 			children = (
 				B1AE3BF51AD3580900D48494 /* Bolts.framework */,
 				B11F4E321AC5F677009158DF /* ParseFacebookUtils.framework */,
-				B1C0CEB31AC4D21D00DF3274 /* Bolts.framework */,
 				B1AE3BF71AD3582000D48494 /* Parse.framework */,
-				B1C0CEB41AC4D21D00DF3274 /* Parse.framework */,
 				B1C0CE931AC4D1DC00DF3274 /* AppDelegate.swift */,
 				B1C0CE971AC4D1DC00DF3274 /* Main.storyboard */,
 				B1AE3BF11AD31B8700D48494 /* ReadyToPostViewController.swift */,

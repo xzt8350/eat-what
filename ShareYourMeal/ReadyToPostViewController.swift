@@ -43,12 +43,17 @@ class ReadyToPostViewController: UIViewController {
         
         post["username"] = PFUser.currentUser().username
         
+        post["numLikes"] = 0
+        
+        var likes = [String]()
+        
+        post["likes"] = likes
+        
         let imageData = UIImagePNGRepresentation(image)
         
         let imageFile = PFFile(name:"image.png", data: imageData)
         
         post["imageFile"] = imageFile
-        
         
         post.saveInBackgroundWithBlock{
             
@@ -64,10 +69,8 @@ class ReadyToPostViewController: UIViewController {
             }
             
         }
-        
-        
+            
         self.performSegueWithIdentifier("JumpBackToFeed", sender: self)
-
         
     }
     

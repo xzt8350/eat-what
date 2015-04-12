@@ -120,7 +120,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450058166.527916"
+            timestampString = "450313245.874992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "449543202.590756"
+            timestampString = "450137479.075754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "UserFeedTableViewController"
             landmarkType = "3">
             <Locations>
@@ -252,11 +252,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450058166.527916"
+            timestampString = "450306445.67579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "UserFeedTableViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -284,11 +284,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450043390.109638"
+            timestampString = "450137479.075754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "UserFeedTableViewController"
             landmarkType = "3">
             <Locations>
@@ -400,11 +400,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/ReadyToPostViewController.swift"
-            timestampString = "450048970.667289"
+            timestampString = "450313985.729253"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -416,27 +416,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450058427.050702"
+            timestampString = "450313807.997667"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450057687.932153"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "UserFeedTableViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -448,11 +432,455 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShareYourMeal/UserFeedTableViewController.swift"
-            timestampString = "450057840.885295"
+            timestampString = "450306445.67579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "UserFeedTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.images.getter : Swift.Array&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.131927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.images.setter : Swift.Array&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133172"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.images.materializeForSet : Swift.Array&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133336"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(style : C.UITableViewStyle) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133636"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "194">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)() -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450157281.133937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450313245.874992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450135928.944009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "UserFeedTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.image.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.700716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.image.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.700929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.image.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImage&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.701041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(style : C.UITableViewStyle) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.701167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.70127"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)() -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.70139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450135815.701513"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/TaggedImageView.swift"
+            timestampString = "450155658.712384"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "TaggedImageView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/PostTableViewCell.swift"
+            timestampString = "450156722.667007"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PostTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450339693.352245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450313807.997667"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450313807.997667"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "likeButtonClicked(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450312213.934614"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "UserFeedTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.picker.getter : Swift.Optional&lt;ObjectiveC.UIImagePickerController&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.936905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.picker.setter : Swift.Optional&lt;ObjectiveC.UIImagePickerController&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.937027"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.picker.materializeForSet : Swift.Optional&lt;ObjectiveC.UIImagePickerController&gt;"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.937149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(style : C.UITableViewStyle) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.93724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.93733"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)() -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.937434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShareYourMeal.UserFeedTableViewController.init (ShareYourMeal.UserFeedTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ShareYourMeal.UserFeedTableViewController"
+                  moduleName = "ShareYourMeal"
+                  urlString = "file:///Users/Tracy/Desktop/Eat/eat-what/ShareYourMeal/UserFeedTableViewController.swift"
+                  timestampString = "450312213.937519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShareYourMeal/UserFeedTableViewController.swift"
+            timestampString = "450313497.188978"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
